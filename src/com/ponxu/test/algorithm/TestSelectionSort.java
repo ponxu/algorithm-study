@@ -14,11 +14,8 @@ public class TestSelectionSort {
                     minPos = j;
             }
 
-            if (minPos != i) {
-                int temp = a[i];
-                a[i] = a[minPos];
-                a[minPos] = temp;
-            }
+            if (minPos != i)
+                Utils.swap(a, i, minPos);
         }
     }
 
