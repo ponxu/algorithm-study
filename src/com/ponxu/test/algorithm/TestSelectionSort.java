@@ -3,7 +3,7 @@ package com.ponxu.test.algorithm;
 import java.util.Arrays;
 
 /**
- * Created by vince on 15-1-19.
+ * Created by xwz on 15-1-19.
  */
 public class TestSelectionSort {
     public static void selectionSort(int[] a, int n) {
